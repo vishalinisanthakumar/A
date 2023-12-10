@@ -1,0 +1,140 @@
+      <!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main" id="sectionpage1">
+        <p class="para1">Conference Home Page:</p>
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/conference-img.png" class="img" />
+        <h1 class="heading">The Things <br />Conference</h1>
+        <p class="para2">Redefining the future of IoT with <br />LoRaWAN</p>
+        <div class="text-center">
+            <button class="button btn btn-primary" onclick="display('sectionpage2')">
+                Know more</button>
+        </div>
+    </div>
+    <div id="sectionpage2">
+        <p>Conference Details Page</p>
+        <div class="embed-responsive embed-responsive-16by9 img2">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vKJ6nXE_6Hc?rel=0" allowfullscreen></iframe>
+        </div>
+        <h1 class="h2">The Things Conference</h1>
+        <p class="para2 para3">Join Asia's Largest Conference on LoRaWAN</p>
+        <div class="d-flex flex-row">
+            <div>
+                <h1 class="num">1400+</h1>
+                <p class="p">Attendees</p>
+            </div>
+            <div>
+                <h1 class="num">100+</h1>
+                <p class="p">Workshops</p>
+            </div>
+        </div>
+        <div class="d-flex flex-row text-center">
+            <div class="">
+                <h1 class="num">120+</h1>
+                <p class="p">Speakers</p>
+            </div>
+            <div class="">
+                <h1 class="num">10+</h1>
+                <p class="p">Countries</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="button2 btn btn-primary" onclick="display('sectionpage1')">Back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+CSS
+
+
+.main {
+    width: 300px;
+    padding: 1px;
+}
+
+.img {
+    height: 200px;
+    margin: 10px;
+}
+
+.para1 {
+    margin: 10px;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Roboto;
+    color: #183b56;
+}
+
+.para2 {
+    text-align: center;
+    font-family: roboto;
+}
+
+.button {
+    margin: 10px;
+    font-size: 14px;
+    font-family: Roboto;
+    padding: 10px;
+}
+
+.img2 {
+    height: 200px;
+    margin: 10px;
+}
+
+.h2 {
+    padding-top: 16px;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.para3 {
+    font-size: 15px;
+}
+
+.num {
+    font-size: 18px;
+    margin-left: 70px;
+    color: #183b56;
+    text-align: center;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.p {
+    font-size: 15px;
+    margin-left: 70px;
+    text-align: center;
+    color: #5a7184;
+    font-family: roboto;
+}
+
+.button2 {
+    font-size: 13px;
+    font-family: Roboto;
+    padding: 09px;
+}
